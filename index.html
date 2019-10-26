@@ -152,6 +152,73 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-MySQL各种链接查询" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/10/26/MySQL各种链接查询/">MySQL各种链接查询</a>
+    </h1>
+  
+
+        
+        <a href="/2019/10/26/MySQL各种链接查询/" class="archive-article-date">
+  	<time datetime="2019-10-26T06:04:49.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-26</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>联合查询</p>
+<p>略。。。</p>
+<p>内连接<br>    INNER JOIN 表名 ON 条件<br>外连接<br>  左外连接<br>    LEFT JOIN 表名 ON 条件<br>  右外连接<br>    RIGHT JOIN  表名 ON 条件<br>  全连接<br>    FULL JOIN 表名 ON 条件<br>交叉连接<br>    CROSS JOIN </p>
+<p>MySQL 不支持全连接</p>
+<p>外联查询<br>SELECT t1.name 学生姓名,t2.name 教师姓名<br>FROM stu t1,tea t2<br>WHERE t1.teaId  = t2.id;<br>内查询<br>SELECT t1.name 学生姓名,t2.name 教师姓名<br>FROM  stu t1 INNER JOIN tea t2<br>ON t1.teaId = t2.id;<br>左外连接<br>SELECT t1.name 学生姓名,t2.name 教师姓名<br>FROM  stu t1 LEFT JOIN tea t2<br>ON t1.teaId = t2.id;<br>右外连接<br>SELECT t1.name 学生姓名,t2.name 教师姓名<br>FROM  stu t1 RIGHT JOIN tea t2<br>ON t1.teaId = t2.id;<br>外连接 (不支持)<br>交叉连接<br>SELECT t1.name 学生姓名,t2.name 教师姓名<br>FROM  stu t1 CROSS JOIN tea t2<br>ON t1.teaId = t2.id;</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/10/26/MySQL各种链接查询/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-SQL的函数" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
